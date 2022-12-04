@@ -15,14 +15,6 @@ const IPFS_REGEX = /^ipfs:\/\//gm;
 const NULL_ADDRESS = "0x0000000000000000000000000000000000000000";
 
 const CHAINS_CONFIG = {
-	MUMBAI: {
-		chainId: "80001",
-		chainName: "Mumbai",
-		nativeCurrency: { name: "Matic", symbol: "MATIC", decimals: 18 },
-		websocketRpcUrl:
-			"wss://polygon-mumbai.g.alchemy.com/v2/jGTlLP4Sa_TtTr_PAKM2E7tVQ87Y4gHX",
-		blockExplorerUrls: ["https://mumbai.polygonscan.com/"],
-	},
 	REEF: {
 		chainId: "13939",
 		chainName: "REEF",
